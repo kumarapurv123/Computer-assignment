@@ -1,0 +1,724 @@
+QUES-1
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+
+
+QUES 2 
+#include <stdio.h>
+
+int main()
+{
+    int number;
+    printf("enter an integer");
+    scanf("%d",&number);
+    printf("%d,number");
+
+    return 0;
+}
+  
+QUES 3
+#include <stdio.h>
+
+int main()
+{
+int x=2;
+int y=3;
+int sum;
+sum=x+y;
+printf("the sum of two number are %d",sum);
+
+    return 0;
+}
+ QUES 4
+ 
+#include <stdio.h>
+
+int main()
+{
+int x=2.1;
+int y=2.8;
+int multiply;
+multiply=x*y;
+printf("the multiply of two number are %f",multiply);
+
+    return 0;
+}
+
+QUES 5
+    #include <stdio.h>
+int main() {  
+    char c;
+    printf(" ");
+    scanf("%c", &c); 
+    printf("ASCII value of %c = %d", c, c);
+    
+    return 0;
+}
+QUES 6
+#include <stdio.h>
+
+int main()
+{
+    int d ,di,q, r;
+    printf("enter d");
+    scanf("%d",&d);
+printf("enter di");
+scanf("%d",&di);
+q=di/di;
+r=d % di;
+printf("q=%d\n",q);
+printf("r=%d",r);
+    
+
+    return 0;
+}
+QUES 7
+#include <stdio.h>
+
+
+int main()
+{
+    int x;
+    char y;
+    float z;
+    double a;
+    printf("%d\n",sizeof(x));
+    printf("%d\n",sizeof(y));
+    printf("%d\n",sizeof(z));
+    printf("%d\n",sizeof(a));
+    
+
+    return 0;
+}
+QUES 8
+int main()
+{
+    int a;
+    long b;
+    long long c;
+    double d;
+    long double e;
+    printf("size of int %zu",sizeof(a));
+    printf("size of long int %zu",sizeof(b));
+    printf("size of long long  int %zu",sizeof(c));
+    printf("size of double %zu",sizeof(d));
+    printf("size of long double %zu",sizeof(e));
+    
+    return 0;
+}
+QUES 9
+#include <stdio.h>
+
+int main()
+{
+    int x=10;
+    int y=20;
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    printf("the value of x is %d\n",x);
+    printf("the value of y is %d",y);
+    printf("");
+
+    return 0;
+}
+QUES 10
+#include <stdio.h>
+
+int main()
+{
+  int a , b;
+    printf("enter the length of the square\n");
+    scanf("%d",&b);
+    a = (b*b);
+    printf("area of square :%d", a);
+    return 0;
+}
+QUES11
+#include <stdio.h>
+
+#include<math.h>
+
+int main()
+
+{
+    
+float s1,s2,s3,s,area;
+ 
+scanf("f%f%f",&s1 ,&s2 ,%s3);
+ 
+s=(s1+s2+s3)/2;
+  
+area=sqrt(s*(s-s1)*(s-s2)*(s-s3));
+ 
+printf("%f",area);
+
+
+return 0;
+
+}
+QUES 12
+#include <stdio.h>
+
+int main()
+{
+     float b1,b2,h;
+    float t;
+    printf("Enter the size of two bases and height of the trapezium");
+    scanf("%f%f%f",&b1,&b2,&h);
+    t = 0.5*( b1+b2 ) * h ;
+    printf("t of trapezium is: %.3f",t);
+    return 0;
+}
+ QUES 13
+#include <stdio.h>
+int main()
+{
+int radius=48;
+float pie=3.14285714286;
+double volume=(4.0/3.0)*pie*(radius*radius*radius);
+printf("Volume of the sphere=%f",volume);
+return 0;
+}
+QUES 14
+#include <stdio.h>
+int main()
+{
+    int a;
+    float b;
+    double c;
+    char d;
+    printf("aixe of int = %d",sizeof(a));
+    printf("size of float = %d",sizeof(b));
+    printf("size of double = %d",sizeof(c));
+    printf("size of char = %d", sizeof(d));
+    return 0;
+}
+QUES 15
+ #include<stdio.h>
+int main()
+{
+int a=5;
+ int b=5;
+int sum;
+printf("%d",a+b);
+return 0;
+}
+
+
+QUES 16
+#include <stdio.h>
+int main() {
+int p, q;
+int sum, sub, mul, mod;
+float div;
+printf("Enter any numbers:\n");
+scanf("%d%d", &p, &q);
+sum = p+q;
+sub = p-q;
+mul = p*q;
+div = (float)p/q;
+mod = p % q;
+printf("\n");
+printf("Addition of %d+%d=%d\n",p,q,sum);
+printf("Subtraction of %d-%d = %d\n",p,q,sub);
+printf("Multiplication of %d * %d = %d\n", p, q, mul);
+printf("Division of %d / %d = %f\n", p, q, div);
+printf("Modulus of %d %% %d = %d\n", p, q, mod);
+return 0;
+}
+
+
+
+QUES 17
+#include <stdio.h>
+int main(){
+    float length, width, area;
+    printf("enter the length of rectangle\n");
+    scanf("%f", &length);
+    printf("enter the width of  rectangle\n");
+    scanf("%f", &width);
+    /* Area of Rectangle = Length X Width */
+    area = length * width;
+    printf("Area of Rectangle : %0.4f\n", area);
+    return 0;
+}
+QUES18
+#include <stdio.h>
+
+int main()
+{
+    int length,width,area ;
+    printf("enter length of rectangle");
+    scanf("%d",&length);
+    printf("enter the width of rectangle");
+    scanf("%d",&width);
+    area=(length*width);
+    printf("area of rectangle=%d sq.units",area);
+
+    return 0;
+}
+QUES 19
+#include <stdio.h>
+int main()
+{
+float radius, diamter,circumfernce,area;
+printf("enter the radius of circle");
+scanf("%f",&radius);
+diamter=2*radius;
+circumfernce=2*3.14*radius;
+area=3.14*(radius*radius);
+printf("diamter of circle=%.1f units\n",diamter);
+printf("circumfernce of circle = %.2f units \n", circumfernce);
+printf("area of circle = %1f sq.units", area);
+    return 0;
+}
+QUES 20
+#include <stdio.h>
+
+int main()
+{
+    int cm, meter, km;
+    printf("enter lenght in cm");
+    scanf("%d",&cm);
+    meter=cm/100.0;
+    km=cm/100000.00;
+    printf("length in meter =%d m \n",meter);
+    printf("length in kilometer=%d km",km);
+
+    return 0;
+}
+ QUES 21
+#include <stdio.h>
+
+int main()
+{
+    float c,f;
+    printf("enter the temp in c");
+    scanf("%f",&c);
+    c=(c*9/5)+32;
+    printf("temp in f %f",c);
+
+    return 0;
+}
+QUES 22
+#include <stdio.h>
+
+int main()
+{
+    float c,f;
+    printf("enter the temp in f");
+    scanf("%f",&f);
+    c=(c*9/5)+32;
+    printf("temp in f %f",f);
+
+    return 0;
+}
+
+QUES 23
+#include <stdio.h>
+int main()
+{  
+int nd,y,w,d; 
+printf("enter the total days");
+scanf("%d",&nd);
+y=nd/365;
+w=(nd%365)/7;  
+d=(nd%365)%7;  
+printf("%d=%d years %d weeks %d days");
+return 0;
+
+QUES 24
+#include <stdio.h>
+#include <math.h>
+int main()
+{  
+int x,y;
+float p;
+printf("enter the numbers to program ");
+scanf("%d%d",&x,&y);
+p=pow(x,y);
+printf("%f",p);
+return 0;
+}
+
+QUES 25
+#include <stdio.h>
+
+#include <math.h>
+
+int main()
+
+{
+  
+float a,s;
+ 
+printf("enter the number");
+  
+scanf("%f",&a);
+   
+s=sqrt(a);
+   
+printf("square root is %f",s);
+  
+return 0;
+
+}
+
+QUES 26
+ #include <stdio.h>
+
+
+int main()
+
+{
+    
+int a, b, c;
+
+printf("enter the two angles of triangle");
+   
+scanf("%d%d",&a,&b);
+   
+c=180-(a+b);
+   
+printf("third angle of the triangle =%d",c);
+    
+return 0;
+
+}
+
+QUES 27
+#include <stdio.h>
+
+
+int main()
+
+{
+    
+float base, height, area;
+    
+   
+printf("enter base of the trinagle");
+    
+scanf("%f",&base);
+    
+printf("enter height of the trinagle");
+    
+scanf("%f",&height);
+    
+area =(base*height)/2;
+    
+printf("area of the triangle = %.2f sq.units",area);
+    
+
+    
+return 0;
+
+}
+
+QUES 28
+#include <stdio.h>
+
+#include <math.h>
+
+
+
+{
+    
+int side;
+    
+float area;
+    
+printf("enter side");
+    
+scanf("%d",&side);
+    
+area=(sqrt(3)/(4))*(side*side));
+    
+printf("area %f",area);
+    
+return 0;
+
+}
+
+
+
+QUES 29
+#include <stdio.h>
+
+
+int main()
+
+{
+
+int phy,che,math,english,bio,total;
+   
+float avg;
+    
+printf("enter the marks of 5 subject");
+    
+scanf("%d%d%d%d%d",&phy,&che,&math,&english,&bio);
+    
+total=phy+che+math+english+bio;
+
+printf("total marks %d",total);
+
+avg=total/5;
+
+printf("average marks %lf",avg);
+    
+return 0;
+
+}
+QUES 30
+#include <stdio.h>
+
+
+int main()
+
+{
+      
+int si,p,t,r;
+    
+   
+ printf ("\nenter p");
+    
+scanf("%d",&p);
+
+printf ("\n enter rate of interest");
+    
+scanf("%d",&r);
+    
+printf ("\n enter time");
+    
+scanf("%d",&t);
+    
+si=(p*r*t)/100;
+    
+printf("the value of simple interest%d",si);
+    
+
+return 0;
+
+    
+
+}
+QUES 32
+#include<stdio.h>
+int main()
+{
+printf("you\nare\nlearning\n\'c\'language\n\"do you konw c language\"");
+return 0;
+}
+
+QUES 31
+#include <stdio.h>
+
+#include<math.h>
+
+int main()
+
+{
+    
+float p,r,t,ci;
+    
+printf("enter principal rate time");
+
+scanf("%f%f%f",&p,&r,&t);
+
+ci=p*(pow((1+r/100),t));
+
+printf("ci %f",ci);
+
+
+    
+return 0;
+
+}
+QUES 33
+#include <stdio.h>
+
+
+int main()
+
+{
+ 
+long int mobile;
+   
+printf("enter the mobile");
+    
+    
+scanf("%ld",&mobile);
+    
+printf("%ld",mobile);
+
+    
+return 0;
+
+}
+QUES 34
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+int x,y;
+float p;
+printf("enter the numbers to progrman");
+scanf("%d%d",&x,&y);
+p=pow(x,y);
+printf("%f",p);
+return 0;
+}
+QUES 35
+#include <stdio.h>
+int main()
+{
+float cost;
+cost=172.53;
+printf("the sales total is:$%.2f",cost);
+return 0;
+}
+
+QUES 36
+#include <stdio.h>
+
+int main()
+{
+    float raju;
+    raju=6.5*3;
+    printf("total no. of apples raju got from raghu ,sheenu,and akash is:%.1f",raju);
+    return 0;
+}
+
+QUES 37
+#include <stdio.h>
+
+int main()
+{
+    float value=123456.456f;
+    printf("value %f \n", value);
+    printf("value %e \n", value);
+    
+
+    return 0;
+}
+QUES 38
+#include<stdio.h>
+ int main()
+ {
+     int a,b,c;
+     a=30000;
+     b=30000*20/100;
+     c=(30000+b)*30/100;
+     printf("%d\n%d",b,c);
+ }
+QUES 39
+#include<stdio.h>
+ int main()
+ {
+     int a,HRA,TA,net;
+     scanf("%d",&a);
+     HRA=a*15/100;
+     TA=a*20/100;
+     net=a+HRA+TA;
+     printf("%d",net);
+     return 0;
+ }
+QUES 40
+#include<stdio.h>
+ int main()
+ {
+     int x1,x2,y1,y2,slope;
+     scanf("%d%d%d%d",&x1,&x2,&y1,&y2);
+     slope=(y2-y1)/(x2-x1);
+     printf("slope =%d",slope);
+     printf("\ntan=%d",slope);
+     return 0;
+QUES 41
+-----
+QUES 42
+#include<stdio.h>
+ int main()
+ {
+     float c,l,f;
+     //c= speed of light
+     //l=lemda
+     //f=frequency
+     scanf("%f%f",&c,&l);
+     f=c/l;
+     printf("frequency=%f",f);
+     
+ }
+QUES 43
+#include<stdio.h>
+ int main()
+ {
+     int v,u,a,s;
+     printf("the initial velocity =");
+     scanf("%d",&u);
+     printf("the acceleration =");
+     scanf("%d",&a);
+     printf("the displacement =");
+     scanf("%d",&s);
+     v=u*u+ 2*(a*s);
+     printf("The final velocity=%d ",v*v);
+     return 0;
+ }
+QUES 44
+#include<stdio.h>
+ int main()
+ {
+     int v,u,t,a,s;
+    u=0;
+    t=2;
+    a=4;
+    
+    v=u+a*t;
+    printf("final velocity=%d\n",v);
+   
+    s=u*t+a*t*t/2;
+    printf("distance is=%d",s);
+    return 0;
+ }
+QUES 45
+-----
+QUES 46
+
+#include <stdio.h>
+
+int main()
+{
+    int hr, min ,sec;
+    printf("enter th total seconds");
+    scanf("%d",&sec);
+    hr=(sec/3600);
+    min=(sec-(3600*hr))/60;
+    sec=(sec-(3600*hr)-(min*60));
+    printf("hour,minute,seconds %d,%d,%d,\n",hr,min,sec);
+    
+    return 0;
+}
+QUES 47
+#include <stdio.h>
+#include<stdio.h>
+int main()
+{
+    int ndays,year,month,day;
+    printf("enter the total number of days");
+    scanf("%d",&ndays);
+    year=ndays/365;
+    month=(ndays-year*365)-(month*30);
+printf("year %d",year);
+printf("months %d",month);
+printf("days %d",day);
+    return 0;
+}
+
+
